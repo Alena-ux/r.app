@@ -18,3 +18,4 @@ console.log("Результат: "+ res);
 console.log("Результат: "+ res_2);
 console.log("Результат: "+ res_3);
 
+console.log("привет, мир!!");
