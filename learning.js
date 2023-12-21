@@ -1,10 +1,18 @@
+var date = new Date();
 
-var counter=0;
-var id=setInterval(function() {
-    counter++;
-    console.log("Прошло секунд: " + counter);
+console.log(date.getFullYear());
+console.log(date.getMonth()+ 1);
+console.log(date.getHours());
 
-    if(counter==10)
-    clearInterval(id);
-}, 1000);
+class Person {
+    constructor(name, age, happiness) {
+        this.name= name;
+        this.age= age;
+        this.happiness= happiness;
+    }
+}
+
+var alex = new Person('Alex', 45, true);
+console.log(alex.name);
+
 
